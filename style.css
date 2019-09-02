@@ -1,0 +1,310 @@
+body {
+	padding: 0;
+	background: #f0f0f0 url(images/top.jpg) repeat-x left top;
+	font: 15px Arial, Helvetica, sans-serif;
+	color: #626262;
+}
+
+h1, h1 a, h2, h2 a, h3, h3 a {
+	margin: 0;
+	text-decoration: none;
+	font-family: Tahoma, Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #444444;
+}
+
+h1 {
+	letter-spacing: -1px;
+	font-size: 2.2em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	letter-spacing: -1px;
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+p, ol, ul {
+	margin-bottom: 2em;
+	line-height: 200%;
+}
+
+blockquote {
+	margin: 0 0 0 1.5em;
+	padding-left: 1em;
+	border-left: 5px solid #DDDDDD;
+}
+
+a {
+	color: #1e82e0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* Header */
+
+#header {
+	height: 42px;
+}
+
+#logo h1, #logo p {
+	float: left;
+}
+
+#logo h1 {
+	font-size: 2.6em;
+	padding: 0px 0 0 40px;
+}
+
+#logo p {
+	margin: 0;
+	padding: 18px 0 0 10px;
+	line-height: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#logo p a {
+	color: #ffffff;
+}
+#menu {
+	float: right;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: block;
+	float: left;
+	height: 42px;
+}
+
+#menu a {
+	display: block;
+	padding: 2px 20px 0px 20px;
+	background: url(images/menu-off.jpg) repeat-x left top;
+	border-top: 4px solid #FFFFFF;
+	border-left: 4px solid #FFFFFF;
+	border-right: 4px solid #FFFFFF;
+	margin-top: 10px;
+	margin-right: 2px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: lowercase;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	color: #004f7e;
+}
+
+#menu .last {
+	margin-right: 20px;
+}
+
+#menu a:hover {
+	background: url(images/menu-on.jpg) repeat-x left top;
+	color: #FFFFFF;
+}
+
+#menu .current_page_item {
+}
+
+#menu .current_page_item a {
+	background: url(images/menu-on.jpg) repeat-x left top;
+	color: #FFFFFF;
+}
+
+/* Page */
+
+#page {
+	padding: 40px 40px 0 40px;
+}
+
+/* Content */
+
+#content {
+	background: #FFFFFF;
+	margin-right: 340px;
+	padding: 0 30px;
+	border-top: 6px #328fc3 solid;
+}
+#content2 {
+	background: #FFFFFF;
+		margin-right: 340px;
+
+	padding: 0 30px;
+	border-top: 6px #328fc3 solid;
+	width:1230px;
+}
+#content3 {
+	background: #FFFFFF;
+	margin-right: 40px;
+	padding: 0 30px;
+	border-top: 6px #328fc3 solid;
+	width:630px;
+}
+
+.post {
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.post .title {
+	font-family: Tahoma, Georgia, "Times New Roman", Times, serif;
+}
+
+.post .title h2 {
+	padding: 0px 30px 5px 0px;
+	font-weight: normal;
+	font-size: 2.2em;
+	color: #1c79b4;
+}
+
+.title h2 a {
+	color: #1c79b4;
+}
+
+.title h2 a:hover {
+	color: #499cd1;
+}
+
+.post .title p {
+	margin: 0;
+	padding: 10px 0 10px 20px;
+	background: url(images/folder.png) no-repeat left center;
+	border-top: 1px #D8DFE6 dotted;
+	line-height: normal;
+	color: #BABABA;
+}
+
+.post .title p a {
+	color: #EEA90B;
+}
+
+.post .entry {
+	padding: 0;
+	border-top: 1px #D8DFE6 dotted;
+}
+
+.post .links {
+	padding: 5px 0;
+	border-top: 1px #D8DFE6 dotted;
+	border-bottom: 1px #D8DFE6 dotted;
+	margin-top: 10px;
+	text-align: right;
+}
+
+.post .links a {
+	font-weight: bold;
+}
+
+.post .links a:hover {
+}
+
+.post .links .more {
+}
+
+.post .links .comments {
+	padding-left: 20px;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 300px;
+	background: #FFFFFF;
+	border-top: 6px #328fc3 solid;
+	
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin-bottom: 10px;
+}
+
+#sidebar li ul {
+	padding: 0 30px 40px 30px;
+}
+
+#sidebar li li {
+	margin: 0;
+	padding-left: 30px;
+	background: url(images/arrow.png) no-repeat 5px 50%;
+}
+
+#sidebar h2 {
+	padding: 0px 30px 10px 30px;
+	font-weight: normal;
+	font-size: 1.6em;
+	color: #E47F07;
+}
+
+#sidebar li p {
+	padding: 0px 30px 0px 30px;
+}
+
+
+/* Categories */
+
+#sidebar #categories li {
+}
+
+
+/* Footer */
+
+#footer {
+	position:absolute;
+   bottom:0;
+   width:1358px;
+   height:50px;
+	padding: 20px 0 10px 0;
+	border-top: 6px #2f92c9 solid;
+	background: #48b2ee;
+}
+
+#footer p {
+	margin-bottom: 1em;
+	text-align: center;
+	line-height: normal;
+	font-size: .9em;
+	color: #FFFFFF;
+}
+
+#footer a {
+	padding: 0 20px;
+	text-decoration: none;
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+#footer .legal a {
+	padding: 0;
+}
